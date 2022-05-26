@@ -5,7 +5,7 @@ function Television({ data }) {
   return (
     <div>
       <h2>{data.name}</h2>
-      <img src={data.image.original} alt="show" />
+      <img src={data.image} alt="show" />
     </div>
   );
 }
