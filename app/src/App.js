@@ -5,7 +5,7 @@ import Television from "./Components/Television";
 function App() {
   const [tvData, setTvData] = useState({});
   async function dataFetch() {
-    const response = await fetch("https://api.tvmaze.com/shows/69");
+    const response = await fetch("https://api.tvmaze.com/shows/500");
     const data = await response.json();
     console.log(data);
     setTvData(data);
