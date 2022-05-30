@@ -1,3 +1,7 @@
+.show-info {
+  border: solid 1px red;
+}
+
 .genre-box {
   display: grid;
   grid-row: 4;
