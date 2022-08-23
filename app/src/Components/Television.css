@@ -1,9 +1,3 @@
-.show-info {
-  border: solid 1px red;
-  margin: auto;
-}
-
-.genre-box {
-  display: grid;
-  grid-row: 4;
+.television-title {
+  color: blue;
 }
